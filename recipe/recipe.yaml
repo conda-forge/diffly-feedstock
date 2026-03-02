@@ -16,7 +16,7 @@ build:
       - diffly = diffly.cli:app
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -37,7 +37,9 @@ tests:
       pip_check: true
 
 about:
-  homepage: https://pypi.org/project/diffly/
+  homepage: https://pypi.org/project/diffly
+  repository: https://github.com/quantco/diffly
+  documentation: https://diffly.readthedocs.io/stable
   summary: Utility package for comparing polars dataframes.
   license: BSD-3-Clause
   license_file: LICENSE
