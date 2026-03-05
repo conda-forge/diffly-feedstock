@@ -3,11 +3,15 @@ About diffly-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/diffly-feedstock/blob/main/LICENSE.txt)
 
-Home: https://pypi.org/project/diffly/
+Home: https://pypi.org/project/diffly
 
 Package license: BSD-3-Clause
 
 Summary: Utility package for comparing polars dataframes.
+
+Development: https://github.com/quantco/diffly
+
+Documentation: https://diffly.readthedocs.io/stable
 
 Current build status
 ====================
