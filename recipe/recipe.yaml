@@ -1,5 +1,5 @@
 context:
-  version: "1.1.0"
+  version: "1.2.0"
   python_min: "3.11"
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/diffly/diffly-${{ version }}.tar.gz
-  sha256: de8b0297e9e3ffb087597e3eefd43aa38d041d8025cd8b45afe73d393fc406d3
+  sha256: 9941ff28b8cc32dc23b26cc6400891edaa87e0ff7095a9247f8ff316af7eb322
 
 build:
   python:
