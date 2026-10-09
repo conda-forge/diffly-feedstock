@@ -1,6 +1,6 @@
 context:
-  version: "1.4.1"
-  python_min: "3.11"
+  version: 1.5.0
+  python_min: '3.11'
 
 package:
   name: diffly
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/diffly/diffly-${{ version }}.tar.gz
-  sha256: 7fcb852b83b20552155024989bbb55152850d1b1f359c3e207ecdaa8df47e554
+  sha256: 8f15e2890a8a783cb4594011f7198efc741f322977c90d6f9fd38631d5a3e935
 
 build:
   python:
@@ -26,9 +26,8 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - polars >=1.32,<2
+    - polars >=1.32,<3
     - rich
-
 tests:
   - python:
       python_version: ${{ python_min }}.*
